@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B5C68A529F5E29000B32436 /* WaterBalanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5C68A429F5E29000B32436 /* WaterBalanceModel.swift */; };
+		4B5C68A929F7061300B32436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B5C68A829F7061300B32436 /* Assets.xcassets */; };
+		4B5C68AD29F7148100B32436 /* OnBoardingFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5C68AC29F7148100B32436 /* OnBoardingFirstView.swift */; };
+		4B5C68B129F7221900B32436 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5C68B029F7221900B32436 /* CustomButton.swift */; };
+		4B5C68B529F724E400B32436 /* RemindSelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5C68B429F724E400B32436 /* RemindSelectButton.swift */; };
+		4B5C68B929F725C400B32436 /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5C68B829F725C400B32436 /* CustomText.swift */; };
+		4B5C68BB29F726AC00B32436 /* WaterBalanceUIandLecture06App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5C68BA29F726AC00B32436 /* WaterBalanceUIandLecture06App.swift */; };
+		4B5C68BD29F726AF00B32436 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5C68BC29F726AF00B32436 /* ContentView.swift */; };
+		4B5C68BF29F83F2D00B32436 /* DailyIntakeLevelViewInSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5C68BE29F83F2D00B32436 /* DailyIntakeLevelViewInSetting.swift */; };
+		4B671D1229E1C2E10020700F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B671D1129E1C2E10020700F /* Preview Assets.xcassets */; };
+		4B671D1B29E1F7790020700F /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B671D1A29E1F7790020700F /* MainScreenView.swift */; };
+		4B671D1D29E2050C0020700F /* HistoryScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B671D1C29E2050C0020700F /* HistoryScreenView.swift */; };
+		4B671D1F29E2110C0020700F /* SettingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B671D1E29E2110C0020700F /* SettingScreenView.swift */; };
+		4B671D2129E220750020700F /* GoalScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B671D2029E220750020700F /* GoalScreenView.swift */; };
+		4B671D2329E221530020700F /* ReminderScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B671D2229E221530020700F /* ReminderScreenView.swift */; };
+		4B671D2529E221C10020700F /* DailyIntakeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B671D2429E221C10020700F /* DailyIntakeScreenView.swift */; };
+		4BC1AF2429E2FF5E00EDB960 /* Font in Resources */ = {isa = PBXBuildFile; fileRef = 4BC1AF2329E2FF5E00EDB960 /* Font */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B5C68A429F5E29000B32436 /* WaterBalanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterBalanceModel.swift; sourceTree = "<group>"; };
+		4B5C68A829F7061300B32436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B5C68AC29F7148100B32436 /* OnBoardingFirstView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingFirstView.swift; sourceTree = "<group>"; };
+		4B5C68B029F7221900B32436 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		4B5C68B429F724E400B32436 /* RemindSelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindSelectButton.swift; sourceTree = "<group>"; };
+		4B5C68B829F725C400B32436 /* CustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
+		4B5C68BA29F726AC00B32436 /* WaterBalanceUIandLecture06App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterBalanceUIandLecture06App.swift; sourceTree = "<group>"; };
+		4B5C68BC29F726AF00B32436 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4B5C68BE29F83F2D00B32436 /* DailyIntakeLevelViewInSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyIntakeLevelViewInSetting.swift; sourceTree = "<group>"; };
+		4B671D0729E1C2DF0020700F /* WaterBalanceUIandLecture06.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterBalanceUIandLecture06.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B671D1129E1C2E10020700F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B671D1A29E1F7790020700F /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		4B671D1C29E2050C0020700F /* HistoryScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryScreenView.swift; sourceTree = "<group>"; };
+		4B671D1E29E2110C0020700F /* SettingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreenView.swift; sourceTree = "<group>"; };
+		4B671D2029E220750020700F /* GoalScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalScreenView.swift; sourceTree = "<group>"; };
+		4B671D2229E221530020700F /* ReminderScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderScreenView.swift; sourceTree = "<group>"; };
+		4B671D2429E221C10020700F /* DailyIntakeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyIntakeScreenView.swift; sourceTree = "<group>"; };
+		4BC1AF2329E2FF5E00EDB960 /* Font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Font; sourceTree = "<group>"; };
+		4BC1AF2529E2FFDA00EDB960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B671D0429E1C2DF0020700F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B5C68AA29F7130500B32436 /* SettingOptions */ = {
+			isa = PBXGroup;
+			children = (
+				4B671D2429E221C10020700F /* DailyIntakeScreenView.swift */,
+				4B671D2029E220750020700F /* GoalScreenView.swift */,
+				4B671D2229E221530020700F /* ReminderScreenView.swift */,
+				4B5C68BE29F83F2D00B32436 /* DailyIntakeLevelViewInSetting.swift */,
+			);
+			path = SettingOptions;
+			sourceTree = "<group>";
+		};
+		4B5C68B329F724B700B32436 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4B5C68A429F5E29000B32436 /* WaterBalanceModel.swift */,
+				4B5C68B029F7221900B32436 /* CustomButton.swift */,
+				4B5C68B429F724E400B32436 /* RemindSelectButton.swift */,
+				4B5C68B829F725C400B32436 /* CustomText.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4B5C68B629F7251900B32436 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				4B671D1E29E2110C0020700F /* SettingScreenView.swift */,
+				4B671D1C29E2050C0020700F /* HistoryScreenView.swift */,
+				4B671D1A29E1F7790020700F /* MainScreenView.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		4B671CFE29E1C2DF0020700F = {
+			isa = PBXGroup;
+			children = (
+				4B671D0929E1C2DF0020700F /* WaterBalanceUIandLecture06 */,
+				4B671D0829E1C2DF0020700F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B671D0829E1C2DF0020700F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B671D0729E1C2DF0020700F /* WaterBalanceUIandLecture06.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B671D0929E1C2DF0020700F /* WaterBalanceUIandLecture06 */ = {
+			isa = PBXGroup;
+			children = (
+				4BC1AF2529E2FFDA00EDB960 /* Info.plist */,
+				4B5C68BA29F726AC00B32436 /* WaterBalanceUIandLecture06App.swift */,
+				4B5C68BC29F726AF00B32436 /* ContentView.swift */,
+				4B5C68B629F7251900B32436 /* MainViews */,
+				4B5C68AA29F7130500B32436 /* SettingOptions */,
+				4B5C68B329F724B700B32436 /* Helpers */,
+				4B5C68AC29F7148100B32436 /* OnBoardingFirstView.swift */,
+				4B5C68A829F7061300B32436 /* Assets.xcassets */,
+				4BC1AF2329E2FF5E00EDB960 /* Font */,
+				4B671D1029E1C2E10020700F /* Preview Content */,
+			);
+			path = WaterBalanceUIandLecture06;
+			sourceTree = "<group>";
+		};
+		4B671D1029E1C2E10020700F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4B671D1129E1C2E10020700F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B671D0629E1C2DF0020700F /* WaterBalanceUIandLecture06 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B671D1529E1C2E10020700F /* Build configuration list for PBXNativeTarget "WaterBalanceUIandLecture06" */;
+			buildPhases = (
+				4B671D0329E1C2DF0020700F /* Sources */,
+				4B671D0429E1C2DF0020700F /* Frameworks */,
+				4B671D0529E1C2DF0020700F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterBalanceUIandLecture06;
+			productName = WaterBalanceUIandLecture06;
+			productReference = 4B671D0729E1C2DF0020700F /* WaterBalanceUIandLecture06.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B671CFF29E1C2DF0020700F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					4B671D0629E1C2DF0020700F = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 4B671D0229E1C2DF0020700F /* Build configuration list for PBXProject "WaterBalanceUIandLecture06" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B671CFE29E1C2DF0020700F;
+			productRefGroup = 4B671D0829E1C2DF0020700F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B671D0629E1C2DF0020700F /* WaterBalanceUIandLecture06 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B671D0529E1C2DF0020700F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B671D1229E1C2E10020700F /* Preview Assets.xcassets in Resources */,
+				4B5C68A929F7061300B32436 /* Assets.xcassets in Resources */,
+				4BC1AF2429E2FF5E00EDB960 /* Font in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B671D0329E1C2DF0020700F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5C68B929F725C400B32436 /* CustomText.swift in Sources */,
+				4B671D2529E221C10020700F /* DailyIntakeScreenView.swift in Sources */,
+				4B671D1F29E2110C0020700F /* SettingScreenView.swift in Sources */,
+				4B5C68BB29F726AC00B32436 /* WaterBalanceUIandLecture06App.swift in Sources */,
+				4B5C68B529F724E400B32436 /* RemindSelectButton.swift in Sources */,
+				4B5C68AD29F7148100B32436 /* OnBoardingFirstView.swift in Sources */,
+				4B5C68A529F5E29000B32436 /* WaterBalanceModel.swift in Sources */,
+				4B671D1B29E1F7790020700F /* MainScreenView.swift in Sources */,
+				4B671D2329E221530020700F /* ReminderScreenView.swift in Sources */,
+				4B5C68B129F7221900B32436 /* CustomButton.swift in Sources */,
+				4B5C68BD29F726AF00B32436 /* ContentView.swift in Sources */,
+				4B5C68BF29F83F2D00B32436 /* DailyIntakeLevelViewInSetting.swift in Sources */,
+				4B671D1D29E2050C0020700F /* HistoryScreenView.swift in Sources */,
+				4B671D2129E220750020700F /* GoalScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B671D1329E1C2E10020700F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B671D1429E1C2E10020700F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B671D1629E1C2E10020700F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterBalanceUIandLecture06/Preview Content\"";
+				DEVELOPMENT_TEAM = H2MWQXR936;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WaterBalanceUIandLecture06/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bibitm.WaterBalanceUIandLecture06;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B671D1729E1C2E10020700F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterBalanceUIandLecture06/Preview Content\"";
+				DEVELOPMENT_TEAM = H2MWQXR936;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WaterBalanceUIandLecture06/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bibitm.WaterBalanceUIandLecture06;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B671D0229E1C2DF0020700F /* Build configuration list for PBXProject "WaterBalanceUIandLecture06" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B671D1329E1C2E10020700F /* Debug */,
+				4B671D1429E1C2E10020700F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B671D1529E1C2E10020700F /* Build configuration list for PBXNativeTarget "WaterBalanceUIandLecture06" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B671D1629E1C2E10020700F /* Debug */,
+				4B671D1729E1C2E10020700F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B671CFF29E1C2DF0020700F /* Project object */;
+}
